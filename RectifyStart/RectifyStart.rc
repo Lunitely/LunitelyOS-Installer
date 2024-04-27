@@ -1,0 +1,210 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_RECTIFYSTART        ICON                    "RectifyStart.ico"
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// UIFILE
+//
+
+IDR_UIFILE              UIFILE                  "uifile.xml"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+IDB_BLANK               IMAGE                   "blank.png"
+
+IDB_CPL                 IMAGE                   "cpl.png"
+
+IDB_THEMESWITCH         IMAGE                   "themeswitch.png"
+
+IDB_ANIMATIONS          IMAGE                   "animations.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "RectifyStart"
+    IDS_WHATSNEW            "What's new in v3.2"
+    IDS_NEWCPL              "The new Rectify11 Settings"
+    IDS_NEWCPLDESC          "Rectify11 Settings is a convenient place to change and tweak everything about Rectify11."
+    IDS_CHECKITOUT          "Check it out"
+    IDS_THEMESWITCH         "Easy theme switching"
+    IDS_THEMESWITCHDESC     "With the new Rectify11 tray icon, you can switch themes right from your taskbar."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TURNON              "Turn on"
+    IDS_ALREADYON           "Already turned on"
+    IDS_SMOOTHUI            "Smoother UI"
+    IDS_SMOOTHUIDESC        "Rectify11 v3.2 adds smooth animations to more Windows UI components, as well as making existing UI animations smoother."
+    IDS_CARD                "Title TBD"
+    IDS_CARDDESC            "Description TBD"
+    IDS_STARTUP             "Show this window when Windows starts."
+    IDS_CLOSE               "Close"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "RectifyStart"
+    IDS_WHATSNEW            "Was ist neu in v3.2 ?"
+    IDS_NEWCPL              "Die neuen Rectify11 Einstellungen"
+    IDS_NEWCPLDESC          "In den Rectify11-Einstellungen können Sie alles, was Rectify11 betrifft, bequem ändern und optimieren."
+    IDS_CHECKITOUT          "Probier es aus"
+    IDS_THEMESWITCH         "Einfacher Designwechsel"
+    IDS_THEMESWITCHDESC     "Mit dem neuen Rectify11-Menü im Infobereich können Sie direkt von Ihrer Taskleiste aus das Design wechseln."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TURNON              "Aktivieren"
+    IDS_ALREADYON           "Bereits aktiviert"
+    IDS_SMOOTHUI            "Eine flüssigere Benutzeroberfläche"
+    IDS_SMOOTHUIDESC        "Rectify11 v3.2 fügt einige Animationen zu weiteren Komponenten der Windows-Benutzeroberfläche hinzu und macht bestehende Animationen flüssiger."
+    IDS_CARD                "Titel NZD"
+    IDS_CARDDESC            "Beschreibung NZD"
+    IDS_STARTUP             "RectifyStart mit Windows starten."
+    IDS_CLOSE               "Schließen"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+/////////////////////////////////////////////////////////////////////////////
+// Arabic (Saudi Arabia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ARA)
+LANGUAGE LANG_ARABIC, SUBLANG_ARABIC_SAUDI_ARABIA
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "RectifyStart"
+    IDS_WHATSNEW            "الجديد في الإصدار 3.2"
+    IDS_NEWCPL              "إعدادات Rectify11 الجديدة"
+    IDS_NEWCPLDESC          "مكان سهل الاستخدام لتغيير وضبط كل شيء متعلق بـ Rectify11"
+    IDS_CHECKITOUT          "الاطلاع عليه"
+    IDS_THEMESWITCH         "تغيير الألوان بسهولة"
+    IDS_THEMESWITCHDESC     "مع أداة شريط المهام الجديدة، يمكنك ضبط الوضع الفاتح أو الداكن"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TURNON              "تفعيل"
+    IDS_ALREADYON           "تم التفعيل"
+    IDS_SMOOTHUI            "واجهة سلسة"
+    IDS_SMOOTHUIDESC        "تم إضافة عناصر متحركة في النظام، وجعل الحركات الافتراضية أكثر سلاسة"
+    IDS_CARD                "عنوان"
+    IDS_CARDDESC            "وصف"
+    IDS_STARTUP             "عرض النافذة عند تشغيل الجهاز"
+    IDS_CLOSE               "إغلاق"
+END
+
+#endif    // Arabic (Saudi Arabia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
