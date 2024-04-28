@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace LunitelyOS
 {
     /// <summary>
-    /// Interaktionslogik für Install.xaml
+    /// Interaktionslogik für InstallWindow.xaml
     /// </summary>
-    public partial class Install : Window
+    public partial class InstallWindow : Window
     {
-        public Install()
+        public InstallWindow()
         {
             InitializeComponent();
             DarkMode.EnableDarkMode(this);
