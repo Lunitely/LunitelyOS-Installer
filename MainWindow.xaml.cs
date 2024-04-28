@@ -75,12 +75,7 @@ namespace LunitelyOS
 
         private void Install_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            Process proc = new Process();
-            proc.StartInfo.FileName = "cmd.exe";
-            proc.StartInfo.Arguments = "/c powershell irm https://lunitely.github.io/lunitelyOS/install | iex";
-            proc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            proc.Start();
-            proc.WaitForExit();
+            MessageBox.Show("Install");
         }
 
         private void Repair_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
