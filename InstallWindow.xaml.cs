@@ -12,6 +12,7 @@ namespace LunitelyOS
 
         private void InstallationButtonBack_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
+            MessageBox.Show("(づ￣ 3￣)づ");
             var installWindow = new MainWindow();
             installWindow.Show();
             Close();
