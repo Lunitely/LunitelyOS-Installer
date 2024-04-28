@@ -71,5 +71,6 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
+        <Image x:Name="InstallationButtonBack" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="69" Source="Arrow.png" Visibility="Visible" Margin="10,567,0,0" MouseLeftButtonDown="InstallationButtonBack_MouseLeftButtonDown"/>
     </Grid>
 </Window>
