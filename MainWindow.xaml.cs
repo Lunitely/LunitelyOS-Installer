@@ -45,9 +45,9 @@ namespace LunitelyOS
 
         private void Install_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            Visibility = Visibility.Hidden;
             var installWindow = new Install();
-            installWindow.ShowDialog();
+            installWindow.Show();
+            Close();
         }
 
         private void Repair_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
