@@ -10,5 +10,11 @@ namespace LunitelyOS
             DarkMode.EnableDarkMode(this);
         }
 
+        private void InstallationButtonBack_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            var installWindow = new MainWindow();
+            installWindow.Show();
+            Close();
+        }
     }
 }
