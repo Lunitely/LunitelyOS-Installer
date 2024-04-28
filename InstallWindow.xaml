@@ -14,7 +14,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="ButtonInstall1" Content="Install" HorizontalAlignment="Center" Margin="0,261,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu" MouseEnter="HighlightButtonInstall" MouseLeave="UnHighlightButtonInstall" MouseLeftButtonDown="ClickButtonInstall">
+        <Label x:Name="ButtonInstall1" Content="Installll" HorizontalAlignment="Center" Margin="0,261,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu" MouseEnter="HighlightButtonInstall" MouseLeave="UnHighlightButtonInstall" MouseLeftButtonDown="ClickButtonInstall">
             <UIElement.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
