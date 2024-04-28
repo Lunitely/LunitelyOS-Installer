@@ -18,5 +18,35 @@ namespace LunitelyOS
             InitializeComponent();
             DarkMode.EnableDarkMode(this);
         }
+
+        private void HighlightButtonInstall(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void UnHighlightButtonInstall(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void ClickButtonInstall(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void HighlightButtonRepair(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void UnHighlightButtonRepair(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void ClickButtonRepair(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
