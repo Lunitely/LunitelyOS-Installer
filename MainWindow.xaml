@@ -51,7 +51,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="ButtonRepair1" Content="Repair&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu" MouseEnter="HighlightButtonInstall" MouseLeave="UnHighlightButtonInstall" MouseLeftButtonDown="ClickButtonInstall">
+        <Label x:Name="ButtonRepair1" Content="Repair&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu" MouseEnter="HighlightButtonRepair" MouseLeave="UnHighlightButtonRepair" MouseLeftButtonDown="ClickButtonRepair">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -61,7 +61,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="ButtonRepair2" Content="I want it to be great again!" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="300" Height="36" Foreground="White" FontSize="18" FontFamily="Ubuntu" MouseEnter="HighlightButtonInstall" MouseLeave="UnHighlightButtonInstall" MouseLeftButtonDown="ClickButtonInstall">
+        <Label x:Name="ButtonRepair2" Content="Repair me" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="300" Height="36" Foreground="White" FontSize="18" FontFamily="Ubuntu" MouseEnter="HighlightButtonInstall" MouseLeave="UnHighlightButtonInstall" MouseLeftButtonDown="ClickButtonInstall">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
