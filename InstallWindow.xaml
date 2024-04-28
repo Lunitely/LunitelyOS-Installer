@@ -6,5 +6,7 @@
         xmlns:local="clr-namespace:LunitelyOS"
         mc:Ignorable="d"
         Title="Installation" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF202020">
 
+    </Grid>
 </Window>
