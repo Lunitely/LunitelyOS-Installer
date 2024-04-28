@@ -1,1 +1,1 @@
-Add-WindowsCapability -Online -Name Msix.PackagingTool.Driver~~~~0.0.1.0
+Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.2.0
