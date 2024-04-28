@@ -31,7 +31,9 @@ namespace LunitelyOS
 
         private void ClickButtonInstall(object sender, MouseButtonEventArgs e)
         {
-            var installWindow = new Install();
+            var installWindow = new InstallWindow();
+            installWindow.Show();
+            Close();
         }
 
         private void HighlightButtonRepair(object sender, MouseEventArgs e)
