@@ -1,12 +1,5 @@
-﻿using System.Runtime.InteropServices;
-using System;
-using System.IO;
-using System.Windows;
-using System.Windows.Interop;
-using System.Windows.Media;
-using System.Windows.Controls;
+﻿using System.Windows;
 using System.Windows.Input;
-
 
 namespace LunitelyOS
 {
@@ -48,7 +41,7 @@ namespace LunitelyOS
 
         private void ClickButtonRepair(object sender, MouseButtonEventArgs e)
         {
-            MessageBox.Show("Cumming Soon (Not)");
+            MessageBox.Show("Cumming Soon (Not)", "Lunitely Installer", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }
