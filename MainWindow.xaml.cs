@@ -55,4 +55,24 @@ namespace LunitelyOS
             MessageBox.Show("Repair");
         }
     }
-}
+
+        private void HighlightButtonInstall(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void HighlightButtonRepair(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void UnHighlightButtonRepair(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void ClickButtonRepair(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+    }

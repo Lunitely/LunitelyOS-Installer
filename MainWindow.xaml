@@ -61,7 +61,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="ButtonRepair2" Content="Repair me" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="300" Height="36" Foreground="White" FontSize="18" FontFamily="Ubuntu" MouseEnter="HighlightButtonInstall" MouseLeave="UnHighlightButtonInstall" MouseLeftButtonDown="ClickButtonInstall">
+        <Label x:Name="ButtonRepair2" Content="Repair me" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="300" Height="36" Foreground="White" FontSize="18" FontFamily="Ubuntu" MouseEnter="HighlightButtonRepair" MouseLeave="UnHighlightButtonRepair" MouseLeftButtonDown="ClickButtonRepair">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
