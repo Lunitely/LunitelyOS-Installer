@@ -38,6 +38,8 @@ namespace LunitelyOS
         private void Repair_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
 
+        }
+
         private void Repair_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
         {
             Repair_Label.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF9851FF");
@@ -54,7 +56,6 @@ namespace LunitelyOS
         {
             MessageBox.Show("Repair");
         }
-    }
 
         private void HighlightButtonInstall(object sender, MouseEventArgs e)
         {
@@ -76,3 +77,4 @@ namespace LunitelyOS
 
         }
     }
+}
