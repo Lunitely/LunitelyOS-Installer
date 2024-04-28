@@ -48,39 +48,25 @@ namespace LunitelyOS
                 Marshal.SizeOf<bool>());
         }
 
-        private void TextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Label_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            Install_Label.Foreground = Brushes.White;
-        }
-
-        private void Install_Label_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            Install_Label.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF9851FF");
-        }
-
-        private void Repair_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            Repair_Label.Foreground = Brushes.White;
-        }
-
-        private void Repair_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            Repair_Label.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF9851FF");
-        }
-
-        private void Install_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            MessageBox.Show("Install");
-        }
 
         private void Repair_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             MessageBox.Show("Repair");
+        }
+
+        private void HighlightButtonInstall(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+
+        }
+
+        private void UnHighlightButtonInstall(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+
+        }
+
+        private void ClickButtonInstall(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Install");
         }
     }
 }
