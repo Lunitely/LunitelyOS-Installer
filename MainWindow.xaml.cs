@@ -46,7 +46,7 @@ namespace LunitelyOS
 
         private void ClickButtonRepair(object sender, MouseButtonEventArgs e)
         {
-
+            MessageBox.Show("Cumming Soon (Not)");
         }
     }
 }
