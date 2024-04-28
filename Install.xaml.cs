@@ -22,6 +22,7 @@ namespace LunitelyOS
         public Install()
         {
             InitializeComponent();
+            DarkMode.EnableDarkMode(this);
         }
     }
 }
