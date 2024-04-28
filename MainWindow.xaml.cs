@@ -3,13 +3,10 @@ using System;
 using System.IO;
 using System.Windows;
 using System.Windows.Interop;
-using System.Drawing;
 using System.Windows.Media;
-using Microsoft.Windows.Themes;
-using System.Security.Cryptography.X509Certificates;
-using LunitelyOS;
-using Microsoft.Win32;
-using System.Diagnostics;
+using System.Windows.Controls;
+using System.Windows.Input;
+
 
 namespace LunitelyOS
 {
@@ -34,7 +31,6 @@ namespace LunitelyOS
         {
             InitializeComponent();
             DarkMode();
-            IconUtil.HideIcon(this);
         }
 
         private void DarkMode()
@@ -48,37 +44,37 @@ namespace LunitelyOS
                 Marshal.SizeOf<bool>());
         }
 
-        private void TextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void Label_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        private void Label_MouseEnter(object sender, MouseEventArgs e)
         {
             Install_Label.Foreground = Brushes.White;
         }
 
-        private void Install_Label_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        private void Install_Label_MouseLeave(object sender, MouseEventArgs e)
         {
             Install_Label.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF9851FF");
         }
 
-        private void Repair_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        private void Repair_MouseEnter(object sender, MouseEventArgs e)
         {
             Repair_Label.Foreground = Brushes.White;
         }
 
-        private void Repair_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        private void Repair_MouseLeave(object sender, MouseEventArgs e)
         {
             Repair_Label.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF9851FF");
         }
 
-        private void Install_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void Install_Label_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MessageBox.Show("Install");
         }
 
-        private void Repair_Label_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void Repair_Label_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MessageBox.Show("Repair");
         }
