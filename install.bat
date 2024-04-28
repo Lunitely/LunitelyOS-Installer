@@ -1,2 +1,1 @@
-@echo off
-start /max cmd.exe
+echo lololll
