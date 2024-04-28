@@ -1,3 +1,2 @@
 @echo off
-pause
-pause
+start /max cmd.exe
