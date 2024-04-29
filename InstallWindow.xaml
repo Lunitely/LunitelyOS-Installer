@@ -1,67 +1,49 @@
-﻿<Window x:Name="install_window" x:Class="LunitelyOS.InstallWindow"
+﻿<Window x:Name="platform_window" x:Class="LunitelyOS.PlatformWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LunitelyOS"
-        mc:Ignorable="d" Height="689" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" Icon="LogoRounded.png" Title="LunitelyOS Installer (Installation  )">
+        mc:Ignorable="d" Height="689" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" Icon="LogoRounded.png" Title="LunitelyOS Installer (Choose Platform)">
     <Grid Background="#FF202020">
+        <Button Content="" HorizontalAlignment="Left" Margin="352,417,0,0" VerticalAlignment="Top" Height="35" Width="214" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="352,365,0,0" VerticalAlignment="Top" Height="35" Width="214" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="352,315,0,0" VerticalAlignment="Top" Height="35" Width="214" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="352,265,0,0" VerticalAlignment="Top" Height="35" Width="214" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="352,215,0,0" VerticalAlignment="Top" Height="35" Width="214" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="" HorizontalAlignment="Left" Margin="352,215,0,0" VerticalAlignment="Top" Height="237" Width="214"/>
         <Image HorizontalAlignment="Left" Height="200" VerticalAlignment="Center" Width="200" Source="LogoRounded.png" Visibility="Visible" Margin="79,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Height="50" Width="300" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
-            <Button.Resources>
-                <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="5"/>
-                </Style>
-            </Button.Resources>
-        </Button>
-        <Label x:Name="ButtonInstall1" Content="Installll" HorizontalAlignment="Center" Margin="0,261,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
-            <UIElement.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </UIElement.RenderTransform>
-        </Label>
-        <Label Content="Are you ready for your Windows to be great again?" HorizontalAlignment="Left" Margin="321,103,0,0" VerticalAlignment="Top" Width="469" Height="147" Foreground="White" FontSize="20" FontFamily="Ubuntu">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <Label x:Name="ButtonInstall2" Content="I want it to be great again!" HorizontalAlignment="Center" Margin="0,285,0,0" VerticalAlignment="Top" Width="300" Height="36" Foreground="White" FontSize="18" FontFamily="Ubuntu">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <Button Content="" HorizontalAlignment="Center" Margin="0,349,0,0" VerticalAlignment="Top" Height="50" Width="300" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
-            <Button.Resources>
-                <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="5"/>
-                </Style>
-            </Button.Resources>
-        </Button>
-        <Label x:Name="ButtonRepair1" Content="Repair&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <Label x:Name="ButtonRepair2" Content="Repair me" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" Width="300" Height="36" Foreground="White" FontSize="18" FontFamily="Ubuntu">
+        <Label Content="Are you ready for your Windows to be great again?" HorizontalAlignment="Left" Margin="321,103,0,0" VerticalAlignment="Top" Width="469" Height="50" Foreground="White" FontSize="20" FontFamily="Ubuntu">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -72,5 +54,78 @@
             </Label.RenderTransform>
         </Label>
         <Image x:Name="InstallationButtonBack" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="69" Source="Arrow.png" Visibility="Visible" Margin="10,567,0,0" MouseLeftButtonDown="InstallationButtonBack_MouseLeftButtonDown"/>
+        <CheckBox x:Name="CheckBoxOptimize" Content="" HorizontalAlignment="Left" Margin="357,224,0,0" VerticalAlignment="Top" Height="34" Width="80" IsChecked="True" Foreground="White" RenderTransformOrigin="3.701,0.131" FontSize="72"/>
+        <Label x:Name="ButtonInstall1_Copy" Content="Optimize&#xA;" HorizontalAlignment="Left" Margin="373,213,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <CheckBox x:Name="CheckBoxLuniteline" Content="" HorizontalAlignment="Left" Margin="357,274,0,0" VerticalAlignment="Top" Height="34" Width="80" IsChecked="True" Foreground="White" RenderTransformOrigin="3.701,0.131" FontSize="72"/>
+        <Label x:Name="ButtonInstall1_Copy1" Content="Add Luniteline&#xA;" HorizontalAlignment="Left" Margin="373,263,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <CheckBox x:Name="CheckBoxThemes" Content="" HorizontalAlignment="Left" Margin="357,324,0,0" VerticalAlignment="Top" Height="34" Width="80" IsChecked="True" Foreground="White" RenderTransformOrigin="3.701,0.131" FontSize="72"/>
+        <Label x:Name="ButtonInstall1_Copy2" Content="Add Themes&#xA;" HorizontalAlignment="Left" Margin="373,313,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <CheckBox x:Name="CheckBoxStartMenu" Content="" HorizontalAlignment="Left" Margin="357,374,0,0" VerticalAlignment="Top" Height="34" Width="80" IsChecked="True" Foreground="White" RenderTransformOrigin="3.701,0.131" FontSize="72"/>
+        <Label x:Name="ButtonInstall1_Copy3" Content="Add Start Menu&#xA;" HorizontalAlignment="Left" Margin="373,363,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <CheckBox x:Name="CheckBoxControlPanel" Content="" HorizontalAlignment="Left" Margin="357,426,0,0" VerticalAlignment="Top" Height="34" Width="80" IsChecked="True" Foreground="White" RenderTransformOrigin="3.701,0.131" FontSize="72"/>
+        <Label x:Name="ButtonInstall1_Copy4" Content="Add Control Panel&#xA;" HorizontalAlignment="Left" Margin="373,415,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="" HorizontalAlignment="Left" Margin="713,496,0,0" VerticalAlignment="Top" Height="35" Width="62" Background="#FF383838" Opacity="0.7" Foreground="{x:Null}" BorderBrush="#FF707070">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label x:Name="ButtonInstall1_Copy5" Content="Next&#xA;" HorizontalAlignment="Left" Margin="713,495,0,0" VerticalAlignment="Top" Width="62" Height="35" Foreground="White" FontSize="22" FontFamily="Ubuntu">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="NextButton" Content="" HorizontalAlignment="Left" Margin="713,496,0,0" VerticalAlignment="Top" Height="35" Width="62" MouseEnter="NextButton_MouseEnter" MouseLeave="NextButton_MouseLeave" MouseLeftButtonDown="NextButton_MouseLeftButtonDown"/>
     </Grid>
 </Window>

@@ -3,17 +3,17 @@ using System.Windows.Input;
 
 namespace LunitelyOS
 {
-    public partial class InstallWindow : Window
+    public partial class PlatformWindow : Window
     {
-        public InstallWindow()
+        public PlatformWindow()
         {
             InitializeComponent();
             DarkMode.EnableDarkMode(this);
         }
 
-        private void InstallationButtonBack_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void PlatformButtonBack_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            var installWindow = new MainWindow();
+            var installWindow = new InstallWindow();
             installWindow.Show();
             Close();
         }
@@ -30,9 +30,7 @@ namespace LunitelyOS
 
         private void NextButton_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            var platformWindow = new PlatformWindow();
-            platformWindow.Show();
-            Close();
+
         }
     }
 }
