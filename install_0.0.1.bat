@@ -17,12 +17,18 @@ powershell Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundl
 winget install Git.Git
 winget update --all
 
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+
 goto finish
 
 :finish
+curl -o C:\Setup_Finish0.0.1.bat https://raw.githubusercontent.com/Lunitely/LunitelyOS-Installer/main/install_finish0.0.1.bat
 reg delete "HKLM\SYSTEM\Setup" /v CmdLine /f
-reg add "HKLM\SYSTEM\Setup" /v CmdLine /t REG_SZ /d ""
+reg add "HKLM\SYSTEM\Setup" /v CmdLine /t REG_SZ /d "C:\Setup_Finish0.0.1.bat"
 reg delete "HKLM\SYSTEM\Setup" /v SetupType /f
-reg add "HKLM\SYSTEM\Setup" /v SetupType /t REG_DWORD /d 0
+reg add "HKLM\SYSTEM\Setup" /v SetupType /t REG_DWORD /d 2
 taskkill /f /im LunitelyOOBE.exe
+shutdown -r -t 0
 exit
